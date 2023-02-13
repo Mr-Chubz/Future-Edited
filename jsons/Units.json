@@ -120,7 +120,7 @@
 	},
 	{
 		"name": "Cavalry",
-		"unitType": "Mounted",
+		"unitType": "Light Cavalry",
 		"movement": 4,
 		"strength": 34,
 		"cost": 225,
@@ -133,7 +133,7 @@
 	},
 	{
 		"name": "Cossack",
-		"unitType": "Mounted",
+		"unitType": "Light Cavalry",
 		"replaces": "Cavalry",
 		"uniqueTo": "Russia",
 		"movement": 4,
@@ -149,7 +149,7 @@
 	},
 	{
 		"name": "Hussar",
-		"unitType": "Mounted",
+		"unitType": "Light Cavalry",
 		"replaces": "Cavalry",
 		"uniqueTo": "Austria",
 		"movement": 5,
@@ -179,7 +179,7 @@
 	},
 	{
 		"name": "Artillery",
-		"unitType": "Siege",
+		"unitType": "Siege Ranged",
 		"movement": 2,
 		"strength": 21,
 		"rangedStrength": 28,
@@ -201,6 +201,7 @@
 		"movement": 2,
 		"strength": 50,
 		"cost": 320,
+	    "requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
 		"uniques": ["Only available <if [GP-Great War] is constructed>","Never appears as a Barbarian unit"],
@@ -208,7 +209,7 @@
 	},
 	{
 		"name": "Triplane",
-		"unitType": "Fighter",
+		"unitType": "Air Fighter",
 		"movement": 1,
 		"strength": 35,
 		"rangedStrength": 35,
@@ -223,7 +224,7 @@
 	},
 	{
 		"name": "Great War Bomber",
-		"unitType": "Bomber",
+		"unitType": "Air Bomber",
 		"movement": 1,
 		"strength": 50,
 		"rangedStrength": 50,
@@ -237,7 +238,7 @@
 	},
     {
 		"name": "Biplane",
-		"unitType": "Fighter",
+		"unitType": "Air Fighter",
 		"movement": 1,
 		"strength": 25,
 		"rangedStrength": 25,
@@ -253,7 +254,7 @@
 	},
 	{
 		"name": "Landship",
-		"unitType": "Armored",
+		"unitType": "Heavy Cavalry",
 		"movement": 4,
 		"strength": 60,
 		"cost": 350,
@@ -265,7 +266,7 @@
 	},
 	{
 		"name": "Battleship",
-		"unitType": "Ranged Water",
+		"unitType": "Naval Siege",
 		"movement": 5,
 		"strength": 55,
 		"rangedStrength": 55,
@@ -312,7 +313,7 @@
 	},
 	{
 		"name": "Destroyer",
-		"unitType": "Melee Water",
+		"unitType": "Naval Melee",
 		"movement": 6,
 		"strength": 60,
 		"interceptRange": 2,
@@ -324,7 +325,7 @@
 	},
 	{
 		"name": "Anti-Aircraft Gun",
-		"unitType": "Support",
+		"unitType": "Anti Air",
 		"movement": 2,
 		"interceptRange": 2,
 		"strength": 50,
@@ -337,7 +338,7 @@
 	},
 	{
 		"name": "Tank",
-		"unitType": "Armored",
+		"unitType": "Heavy Cavalry",
 		"movement": 4,
 		"strength": 70,
 		"cost": 375,
@@ -350,7 +351,7 @@
 //Atomic
     {
 		"name": "Marine",
-		"unitType": "Gunpowder",
+		"unitType": "Marines",
 		"movement": 2,
 		"strength": 65,
 		"cost": 375,
@@ -363,7 +364,7 @@
 	},
     {
 		"name": "Bomber",
-		"unitType": "Bomber",
+		"unitType": "Air Bomber",
 		"movement": 1,
 		"strength": 65,
 		"rangedStrength": 65,
@@ -376,7 +377,7 @@
 	}
     {
 		"name": "Paratrooper",
-		"unitType": "Gunpowder",
+		"unitType": "Paratrooper",
 		"movement": 2,
 		"strength": 65,
 		"cost": 375,
@@ -397,7 +398,7 @@
 	},
 	{
 		"name": "Carrier",
-		"unitType": "Aircraft Carrier",
+		"unitType": "Naval Carrier",
 		"movement": 5,
 		"strength": 60,
 		"cost": 375,
@@ -407,7 +408,7 @@
 	},
 	{
 		"name": "Anti-Tank Gun",
-		"unitType": "Gunpowder",
+		"unitType": "Anti Cavalry",
 		"movement": 2,
 		"strength": 50,
 		"cost": 300,
@@ -418,7 +419,7 @@
 	},
     {
 		"name": "Atomic Bomb",
-		"unitType": "Atomic Bomber",
+		"unitType": "Air Atomic Bomber",
 		"movement": 1,
 		"strength": 150,
 		"rangedStrength": 150,
@@ -433,7 +434,7 @@
 	},
 	{
 		"name": "Rocket Artillery",
-		"unitType": "Siege",
+		"unitType": "Siege Ranged",
 		"movement": 2,
 		"strength": 42,
 		"rangedStrength": 56,
@@ -447,7 +448,7 @@
 	},
 	{
 		"name": "Mobile SAM",
-		"unitType": "Support",
+		"unitType": "Anti Air",
 		"movement": 3,
 		"interceptRange": 2,
 		"strength": 65,
@@ -459,7 +460,7 @@
 	},
 	{
 		"name": "Guided Missile",
-		"unitType": "Missile",
+		"unitType": "Air Missile",
 		"movement": 1,
 		"strength": 60,
 		"rangedStrength": 60,
@@ -471,7 +472,7 @@
 	},
 	{
 		"name": "Helicopter Gunship",
-		"unitType": "Helicopter",
+		"unitType": "Air Helicopter",
 		"movement": 5,
 		"range": 2,
 		"strength": 70,
@@ -487,7 +488,7 @@
 //Information
     {
 		"name": "Nuclear Submarine",
-		"unitType": "Submarine",
+		"unitType": "Naval Submarine",
 		"movement": 6,
 		"strength": 65,
 		"range": 3,
@@ -500,7 +501,7 @@
 	},
 	{
 		"name": "Nuclear Missile",
-		"unitType": "Missile",
+		"unitType": "Air Missile",
 		"movement": 1,
 		"strength": 250,
 		"rangedStrength": 250,
@@ -523,7 +524,7 @@
 	},
 	{
 		"name": "Missile Cruiser",
-		"unitType": "Ranged Water",
+		"unitType": "Naval Ranged",
 		"movement": 7,
 		"strength": 80,
 		"rangedStrength": 100,
@@ -546,18 +547,20 @@
 		"promotions": ["Support Unit"],
 		"uniques": ["Cyber","Hacker","+33% Strength for adjacent non-air Units vs Cyber units","25% Chance for Adjacent units to capture Killed Cyber unit","Never appears as a Barbarian unit"]
 	},
+/*
 	{
 		"name": "Mechanized Infantry",
-		"unitType": "Gunpowder",
+		"unitType": "Light Cavalry",
 		"movement": 3,
 		"strength": 90,
 		"cost": 375,
 		"requiredTech": "Mobile Tactics",
 		"attackSound": "tankshot"
 	},
+	\*
 	{
 		"name": "Modern Armor",
-		"unitType": "Armored",
+		"unitType": "Heavy Cavalry",
 		"movement": 5,
 		"strength": 100,
 		"cost": 425,
@@ -568,7 +571,7 @@
 	},
 	{
 		"name": "Jet Fighter",
-		"unitType": "Fighter",
+		"unitType": "Air Fighter",
 		"movement": 1,
 		"strength": 75,
 		"rangedStrength": 75,
@@ -602,7 +605,7 @@
 	},
 	{
 		"name": "Jet Bomber",
-		"unitType": "Bomber",
+		"unitType": "Air Bomber",
 		"movement": 2,
 		"strength": 90,
 		"rangedStrength": 90,
@@ -615,7 +618,7 @@
 	},
 	{
 		"name": "Stealth Bomber",
-		"unitType": "Bomber",
+		"unitType": "Air Bomber",
 		"movement": 2,
 		"strength": 90,
 		"rangedStrength": 90,
