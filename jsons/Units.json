@@ -804,7 +804,7 @@
 		"cost": 750,
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Composites",
-		"uniques": ["Consumes [2] [Uranium]","Cyber","Can move after attacking","Can carry [1] [Missile] units","Never appears as a Barbarian unit"],
+		"uniques": ["Consumes [2] [Uranium]","Cyber","Can move after attacking","Can carry [1] [Air Missile] units","Never appears as a Barbarian unit"],
 		"promotions": ["Scan Visor","Amphibious","Gravity Generator"]
 		"attackSound": "gdrAttack"
 	},
@@ -817,7 +817,7 @@
 		"rangedStrength": 100,
 		"cost": 530,
 		"requiredResource": "Composites",
-		"uniques": ["Cyber","Only available <if [EP-Cyber Engineering] is constructed>","[+75]% Strength <when attacking>","Can move after attacking","[+1] Sight","Can carry [2] [Missile] units","Ignores Zone of Control","Never appears as a Barbarian unit"],
+		"uniques": ["Cyber","Only available <if [EP-Cyber Engineering] is constructed>","[+75]% Strength <when attacking>","Can move after attacking","[+1] Sight","Can carry [2] [Air Missile] units","Ignores Zone of Control","Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
 	{
