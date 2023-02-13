@@ -1579,7 +1579,7 @@ TileSets/FantasyHex/Units/Future Submarine
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Giant Death Robot
+TileSets/FantasyHex/Units/Ultraheavy Death Robot
   rotate: false
   xy: 1638, 1256
   size: 32, 32
