@@ -864,7 +864,7 @@
 		"unitTypes": ["Naval Raider", "Naval Submarine"]
 	},
 
-	//Naval Carrier
+	//Naval Carrier and Land Carrier
 	{
 		"name": "Extended Flight Deck",
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
