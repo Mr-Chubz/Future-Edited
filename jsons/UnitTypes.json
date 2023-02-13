@@ -1,78 +1,250 @@
 [
-    //G&K
-	{
+    {
         "name": "Civilian",
         "movementType": "Land"
-    },
-    {
-        "name": "Sword",
-        "movementType": "Land"
-		"uniques": ["[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>","[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>","May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>"]
-    },
-    {
-        "name": "Gunpowder",
-        "movementType": "Land"
-		"uniques": ["[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>","[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>","May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>"]
-    },
-    {
-        "name": "Archery",
-        "movementType": "Land"
-		"uniques": ["[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>","[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>","May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>"]
-    },
-    {
-        "name": "Ranged Gunpowder",
-        "movementType": "Land"
-		"uniques": ["[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>","[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>","May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>"]
-    },
-    {
-        "name": "Scout",
-        "movementType": "Land"
-		"uniques": ["[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>","[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>","May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>"]
-    },
-    {
-        "name": "Mounted",
-        "movementType": "Land"
-		"uniques": ["[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>","[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>","May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>"]
-    },
-    {
-        "name": "Armored",
-        "movementType": "Land"
-		"uniques": ["[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>","[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>","May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>"]
-		
-    },
-    {
-        "name": "Siege",
-        "movementType": "Land"
-		"uniques": ["[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>","[+1] Range <when adjacent to a [Intel] unit>","[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>","May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>"]
     },
     {
         "name": "Civilian Water",
         "movementType": "Water"
     },
+
+    //infantry
+
+    {
+        "name": "Infantry",
+	"uniques": ["[+15]% Strength <vs [Anti Cavalry] units>"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Marines",
+        "uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Anti Cavalry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Recon",
+	"uniques": ["Ignores terrain cost", "Can see invisible [Land] units"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Paratrooper",
+        "movementType": "Land"
+    },
+    {
+        "name": "Militia",
+	"uniques": ["[+50]% to Flank Attack bonuses", "Can build [Trench] improvements on tiles", "Can build [Fort] improvements on tiles", "[+50]% Strength when stacked with [Civilian]"],
+        "movementType": "Land"
+    },
+
+    //ranged
+
+    {
+        "name": "Ranged Heavy",
+	"uniques": ["[-20]% Strength <vs [Infantry] units>"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged Support",
+        "movementType": "Land"
+    },
+
+    //siege
+
+    {
+        "name": "Siege Melee",
+        "movementType": "Land"
+    },
+    {
+        "name": "Siege Ranged",
+	"uniques": ["[-1] Sight"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Siege Carrier",
+	"uniques": ["[-1] Sight"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Siege Nuke",
+	"uniques": ["[-1] Sight", "[-50]% XP gained from combat", "Only available <if [Manhattan Project] is constructed>", "[+100]% maintenance costs"],
+        "movementType": "Land"
+    },
+
+    //cav
+
+    {
+        "name": "Heavy Cavalry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Light Cavalry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged Cavalry",
+	"uniques": ["[-20]% Strength <vs [Infantry] units>"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Counter Cavalry",
+        "movementType": "Land"
+    },
+
+    //specialist
+
+    {
+        "name": "Anti Air",
+	"uniques": ["[+60]% Strength <vs [Aircraft] units>", "[+100]% Strength <vs [Helicopter] units>", "Cannot intercept [Ballistic] units"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Missile Defense",
+	"uniques": ["Cannot intercept [Aircraft] units", "[+5000]% Strength <vs [Ballistic] units>"],
+        "movementType": "Land"
+    },
+
+    //naval
+
+    {
+        "name": "Naval Melee",
+	"uniques": ["[+50]% Strength <vs [Naval Raider] units>", "Cannot intercept [Ballistic] units", "Cannot intercept [Satellite] units"],
+        "movementType": "Water"
+    },
+    {
+        "name": "Naval Ranged",
+	"uniques": ["[-20]% Strength <vs [Land] units>", "Cannot intercept [Ballistic] units", "Cannot intercept [Satellite] units"],
+        "movementType": "Water"
+    },
+    {
+        "name": "Naval Siege",
+	"uniques": ["[-20]% Strength <vs [Naval Submarine] units>","[-20]% Strength <vs [Naval Raider] units>", "[+30]% Strength <vs cities>"],
+        "movementType": "Water"
+    },
+    {
+        "name": "Naval Carrier",
+	"uniques": ["Cannot intercept [Ballistic] units", "Cannot intercept [Satellite] units"],
+        "movementType": "Water"
+    },
+    {
+        "name": "Naval Raider",
+        "uniques": ["Invisible to non-adjacent units", "Can see invisible [Naval Raider] units"],
+        "movementType": "Water"
+    },
+    {
+        "name": "Naval Submarine",
+        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Naval Submarine] units", "Can see invisible [Naval Raider] units"],
+        "movementType": "Water"
+    },
+
+    //aircraft
+
+    {
+        "name": "Air Fighter",
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Cannot intercept [Ballistic] units", "Cannot intercept [Satellite] units", "Can perform Air Sweep"],
+        "movementType": "Air"
+    },
+    {
+        "name": "Air Bomber",
+        "uniques": ["Aircraft", "[-20]% Strength <vs [Air] units>"],
+        "movementType": "Air"
+    },
+    {
+        "name": "Air Close Air Support",
+        "uniques": ["Aircraft", "Cannot intercept [Ballistic] units", "Cannot intercept [Satellite] units", "Can perform Air Sweep"],
+        "movementType": "Air"
+    },
+    {
+        "name": "Air Drone",
+        "uniques": ["Aircraft", "Can see over obstacles", "[+2] Sight", "Cannot intercept [Ballistic] units", "Cannot intercept [Satellite] units", "Can perform Air Sweep"],
+        "movementType": "Air"
+    },
+    {
+        "name": "Air Atomic Bomber",
+        "uniques": ["Aircraft", "Self-destructs when attacking"],
+        "movementType": "Air"
+    },
+    {
+        "name": "Air Missile",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking", "Ballistic"]
+    },
+    {
+        "name": "Nuke Missile",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking", "Ballistic"]
+    },
+    {
+        "name": "Air Helicopter",
+        "movementType": "Land",
+        "uniques": ["Can pass through impassable tiles"]
+    },
+    {
+        "name": "Air Satellite",
+        "movementType": "Air",
+        "uniques": ["Cannot be intercepted", "Satellite"]
+    },
+
+
+
+    //vanilla items
+
+    {
+        "name": "Sword",
+        "movementType": "Land"
+    },
+    {
+        "name": "Gunpowder",
+        "movementType": "Land"
+    },
+    {
+        "name": "Archery",
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged Gunpowder",
+        "movementType": "Land"
+    },
+    {
+        "name": "Scout",
+        "movementType": "Land"
+    },
+    {
+        "name": "Mounted",
+        "movementType": "Land"
+    },
+    {
+        "name": "Armored",
+        "movementType": "Land"
+    },
+    {
+        "name": "Siege",
+        "movementType": "Land"
+    },
     {
         "name": "Melee Water",
-        "movementType": "Water"
-		"uniques": ["[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>","May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>"]
+        "movementType": "Water",
+	"uniques": ["Cannot intercept [Ballistic] units"]
     },
     {
         "name": "Ranged Water",
-        "movementType": "Water"
-		"uniques": ["[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>","May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>"]
+        "movementType": "Water",
     },
     {
         "name": "Submarine",
         "movementType": "Water",
-        "uniques": ["[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>","Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units","May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>"]
+        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
     },
     {
         "name": "Aircraft Carrier",
-        "movementType": "Water"
-		"uniques": ["[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>","May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>"]
+        "movementType": "Water",
     },
     {
         "name": "Fighter",
         "movementType": "Air",
-        "uniques": ["Aircraft","[+4] Sight","Can see over obstacles","Can perform Air Sweep"]
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Cannot intercept [Ballistic] units", "Can perform Air Sweep"]
     },
     {
         "name": "Bomber",
@@ -87,13 +259,52 @@
     {
         "name": "Missile",
         "movementType": "Air",
-        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+        "uniques": ["Self-destructs when attacking"]
     },
     {
         "name": "Helicopter",
         "movementType": "Land",
-        "uniques": ["[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>","[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>","May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>","Can pass through impassable tiles"]
+        "uniques": ["Can pass through impassable tiles"]
     },
+    
+    // Deprecated unit types required for mods without a UnitTypes.json file to work
+    
+    {
+        "name": "Melee",
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged",
+        "movementType": "Land"
+    },
+    {
+        "name": "Armor",
+        "movementType": "Land"
+    },
+    {
+        "name": "WaterCivilian",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterMelee",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterRanged",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterSubmarine",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterAircraftCarrier",
+        "movementType": "Water"
+    },
+    {
+        "name": "AtomicBomber",
+        "movementType": "Air"
+    }
 	//Future Expansion
 	{
         "name": "Support",
