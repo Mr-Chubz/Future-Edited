@@ -19,7 +19,7 @@
 	},
     {
 		"name": "Scout",
-		"unitType": "Scout",
+		"unitType": "Recon",
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
@@ -42,7 +42,7 @@
 	},
 	{
 		"name": "Recon",
-		"unitType": "Scout",
+		"unitType": "Recon",
 		"movement": 2,
 		"strength": 22,
 		"cost": 100,
@@ -67,7 +67,7 @@
 	},
 	{
 		"name": "Rifleman",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 34,
 		"cost": 225,
@@ -78,7 +78,7 @@
 	},
 	{
 		"name": "Mehal Sefari",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"replaces": "Rifleman",
 		"uniqueTo": "Ethiopia",
 		"movement": 2,
@@ -92,7 +92,7 @@
 	},
 	{
 		"name": "Carolean",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"replaces": "Rifleman",
 		"uniqueTo": "Sweden",
 		"movement": 2,
@@ -106,7 +106,7 @@
 	},
 	{
 		"name": "Norwegian Ski Infantry",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"replaces": "Rifleman",
 		"uniqueTo": "Denmark",
 		"movement": 2,
@@ -629,7 +629,7 @@
 //Future
     {
 		"name": "Bio-Infantry",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 90,
 		"cost": 375,
@@ -640,7 +640,7 @@
 	},
     {
 		"name": "Hovertank",
-		"unitType": "Armored",
+		"unitType": "Heavy Calvary",
 		"movement": 5,
 		"strength": 100,
 		"cost": 530,
@@ -652,7 +652,7 @@
 	},
 	{
 		"name": "Future Soldier",
-		"unitType": "Gunpowder",
+		"unitType": "Siege Melee",
 		"movement": 2,
 		"strength": 85,
 		"cost": 500,
@@ -664,7 +664,7 @@
 	},
 	{
 		"name": "Hovertillery",
-		"unitType": "Siege",
+		"unitType": "Siege Ranged",
 		"movement": 2,
 		"strength": 42,
 		"rangedStrength": 56,
@@ -677,7 +677,7 @@
 	},
 	{
 		"name": "Hover-SAM",
-		"unitType": "Support",
+		"unitType": "Anti Air",
 		"movement": 3,
 		"interceptRange": 4,
 		"strength": 65,
@@ -689,7 +689,7 @@
 	},
 	{
 		"name": "Combat Robot",
-		"unitType": "Ranged Gunpowder",
+		"unitType": "Ranged Support",
 		"range": 1,
 		"movement": 2,
 		"strength": 80,
@@ -701,7 +701,7 @@
 	},
 	{
 		"name": "Seeker",
-		"unitType": "Scout",
+		"unitType": "Recon",
 		"movement": 3,
 		"strength": 80,
 		"cost": 375,
@@ -711,7 +711,7 @@
 	},
 	{
 		"name": "Synthethic Plant",
-		"unitType": "Gunpowder",
+		"unitType": "Anti Air",
 		"movement": 4,
 		"interceptRange": 6,
 		"strength": 100,
@@ -724,7 +724,7 @@
 	},
 	{
 		"name": "Energy Infantry",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 100,
 		"cost": 600,
@@ -735,7 +735,7 @@
 	},
 	{
 		"name": "Future Copter",
-		"unitType": "Helicopter",
+		"unitType": "Air Helicopter",
 		"movement": 5,
 		"range": 2,
 		"strength": 70,
@@ -762,7 +762,7 @@
 	},
 	{
 		"name": "Orbital Jet",
-		"unitType": "Fighter",
+		"unitType": "Air Fighter",
 		"movement": 2,
 		"strength": 75,
 		"rangedStrength": 75,
@@ -782,7 +782,7 @@
 	},
 	{
 		"name": "Orbital Bomber",
-		"unitType": "Bomber",
+		"unitType": "Air Bomber",
 		"movement": 2,
 		"strength": 90,
 		"rangedStrength": 90,
@@ -797,8 +797,8 @@
 		"attackSound": "bombing"
 	},
 	{
-		"name": "Giant Death Robot",
-		"unitType": "Armored",
+		"name": "Ultraheavy Death Robot",
+		"unitType": "Heavy Calvary",
 		"movement": 5,
 		"strength": 150,
 		"cost": 750,
@@ -810,7 +810,7 @@
 	},
 	{
 		"name": "Future Submarine",
-		"unitType": "Submarine",
+		"unitType": "Naval Submarine",
 		"movement": 6,
 		"strength": 65,
 		"range": 3,
@@ -822,7 +822,7 @@
 	},
 	{
 		"name": "Orbital Strike",
-		"unitType": "Missile",
+		"unitType": "Air Missile",
 		"movement": 1,
 		"strength": 500,
 		"rangedStrength": 500,
