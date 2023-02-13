@@ -868,42 +868,42 @@
 	{
 		"name": "Extended Flight Deck",
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
-		"unitTypes": ["Naval Carrier"]
+		"unitTypes": ["Naval Carrier","Land Carrier"]
 	},
 	{
 		"name": "Radar Dome",
 		"uniques": ["[+2] Sight"],
-		"unitTypes": ["Naval Carrier"]
+		"unitTypes": ["Naval Carrier","Land Carrier"]
 	},
 	{
 		"name": "Hanger Deck",
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
 		"prerequisites": ["Extended Flight Deck"],
-		"unitTypes": ["Naval Carrier"]
+		"unitTypes": ["Naval Carrier","Land Carrier"]
 	},
 	{
 		"name": "Defensive Systems",
 		"uniques": ["[+20]% Strength <when defending>"],
 		"prerequisites": ["Radar Dome"],
-		"unitTypes": ["Naval Carrier"]
+		"unitTypes": ["Naval Carrier","Land Carrier"]
 	},
 	{
 		"name": "Secondary Flight Deck",
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
 		"prerequisites": ["Hanger Deck"],
-		"unitTypes": ["Naval Carrier"]
+		"unitTypes": ["Naval Carrier","Land Carrier"]
 	},
 	{
 		"name": "Close Range AA Defense",
 		"uniques": ["[+25]% Strength <vs [Air] units> <when defending>"],
 		"prerequisites": ["Defensive Systems"],
-		"unitTypes": ["Naval Carrier"]
+		"unitTypes": ["Naval Carrier","Land Carrier"]
 	},
 	{
 		"name": "Mobile Strategic Airbase",
 		"uniques": ["May heal outside of friendly territory", "Unit will heal every turn, even if it performs an action"],
 		"prerequisites": ["Close Range AA Defense", "Secondary Flight Deck"],
-		"unitTypes": ["Naval Carrier"]
+		"unitTypes": ["Naval Carrier","Land Carrier"]
 	},
 
 	//Air Fighter
