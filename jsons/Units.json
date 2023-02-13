@@ -640,7 +640,7 @@
 	},
     {
 		"name": "Hovertank",
-		"unitType": "Heavy Calvary",
+		"unitType": "Heavy Cavalry",
 		"movement": 5,
 		"strength": 100,
 		"cost": 530,
@@ -798,7 +798,7 @@
 	},
 	{
 		"name": "Ultraheavy Death Robot",
-		"unitType": "Heavy Calvary",
+		"unitType": "Heavy Cavalry",
 		"movement": 5,
 		"strength": 150,
 		"cost": 750,
