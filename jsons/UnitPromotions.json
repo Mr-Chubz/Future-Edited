@@ -15,7 +15,7 @@
 	},
 	{
 		"name": "Hovering",
-		"uniques": ["[0] Movement point cost to disembark","[0] Movement point cost to embark","[+50]% Strength <vs [Land] units>","Ignores terrain cost"]
+		"uniques": ["[0] Movement point cost to disembark","[0] Movement point cost to embark","Ignores terrain cost"]
 	},
 	{
 		"name": "Rocket Launcher",
@@ -55,7 +55,7 @@
 	},
 	{
 		"name": "Teleportation",
-		"uniques": ["[+1] Movement","May Paradrop up to [100] tiles from inside friendly territory","May withdraw before melee ([90]%)"]
+		"uniques": ["May Paradrop up to [100] tiles from inside friendly territory","May withdraw before melee ([20]%)"]
 	},
 	{
 		"name": "Support Unit",
