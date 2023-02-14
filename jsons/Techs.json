@@ -218,13 +218,13 @@
 			{
 				"name": "Artificial Intelligence",
 				"row": 6,
-				"prerequisites": ["Artificial Intelligence"],
+				"prerequisites": ["Lasers"],
 				"quote": "tThere is always room, if only in one’s own soul, to create a spot of Paradise, crazy though it may sound.' - Henry Miller"
 			},
 			{
 				"name": "Automation",
 				"row": 7,
-				"prerequisites": ["Artificial Intelligence","Stealth"],
+				"prerequisites": ["Lasers","Stealth"],
 				"quote": "'I visualize a time when we will be to robots what dogs are to humans, and I'm rooting for the machines.' - Claude Shannon"
 			}
 		]
@@ -258,7 +258,7 @@
 			{
 				"name": "Spaceflight",
 				"row": 7,
-				"prerequisites": ["Lasers","Automation"],
+				"prerequisites": ["Artificial Intelligence","Automation"],
 				"quote": "'Space is to place as eternity is to time.' - Joseph Joubert"
 			}
 			{
