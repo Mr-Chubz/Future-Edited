@@ -2153,7 +2153,7 @@ UnitIcons/Hovertillery
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Jet Bomber
+UnitIcons/Advanced Bomber
   rotate: false
   xy: 420, 1636
   size: 200, 200
