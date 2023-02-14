@@ -1109,5 +1109,5 @@
 		"name": "SS Stasis Chamber",
 		"unitType": "Civilian",
 		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
-	}
+	},
 ]
