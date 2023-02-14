@@ -608,7 +608,7 @@
 		"rangedStrength": 90,
 		"range": 20,
 		"cost": 425,
-		"requiredTech": "Stealth",
+		"requiredTech": "Automation",
 		"requiredResource": "Aluminum",
 		"uniques": ["Cyber","Consumes [1] [Oil]"],
 		"attackSound": "bombing"
