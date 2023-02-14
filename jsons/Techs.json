@@ -251,7 +251,7 @@
 			{
 				"name": "Clean Energy",
 				"row": 5,
-				"prerequisites": ["Nanotechnology","Lasers"],
+				"prerequisites": ["Nanotechnology","Artificial Intelligence"],
 				"uniques": ["+3 Power to Buildings that provide it"]
 				"quote": "'For an impenetrable shield, stand inside yourself.' - Henry David"
 			},
