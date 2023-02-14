@@ -567,7 +567,7 @@
 		"attackSound": "tankshot"
 	},
 	{
-		"name": "Jet Fighter",
+		"name": "Advanced Fighter",
 		"unitType": "Air Fighter",
 		"movement": 1,
 		"strength": 75,
@@ -601,7 +601,7 @@
 		"promotions": ["Stealth","Support Unit"]
 	},
 	{
-		"name": "Jet Bomber",
+		"name": "Advanced Bomber",
 		"unitType": "Air Bomber",
 		"movement": 2,
 		"strength": 90,
@@ -614,7 +614,7 @@
 		"attackSound": "bombing"
 	},
 	{
-		"name": "Stealth Bomber",
+		"name": "Strategic Bomber",
 		"unitType": "Air Bomber",
 		"movement": 2,
 		"strength": 90,
