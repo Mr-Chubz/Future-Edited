@@ -374,7 +374,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Jet Bomber",
 		"attackSound": "bombing"
-	}
+	},
     {
 		"name": "Paratrooper",
 		"unitType": "Paratrooper",
@@ -481,9 +481,7 @@
 		"requiredTech": "Computers",
 		"uniques": ["Cyber","Consumes [2] [Aluminum]","[+100]% Strength <vs [Armored] units>","No defensive terrain bonus", "Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","Unable to capture cities","Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
-		"civilopediaText": [
-			{"text": "In Future Expansion, Helicopters are powerful Anti-Tank units capable of performing Ranged attacks and then retreating."}
-		]
+		"civilopediaText": [{"text": "In Future Expansion, Helicopters are powerful Anti-Tank units capable of performing Ranged attacks and then retreating."}]
 	},
 //Information
     {
@@ -547,17 +545,16 @@
 		"promotions": ["Support Unit"],
 		"uniques": ["Cyber","Hacker","+33% Strength for adjacent non-air Units vs Cyber units","25% Chance for Adjacent units to capture Killed Cyber unit","Never appears as a Barbarian unit"]
 	},
-/*
 	{
 		"name": "Mechanized Infantry",
 		"unitType": "Light Cavalry",
-		"movement": 3,
+		"movement": 4,
 		"strength": 90,
-		"cost": 375,
+		"cost": 475,
 		"requiredTech": "Mobile Tactics",
+		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
-	\*
 	{
 		"name": "Modern Armor",
 		"unitType": "Heavy Cavalry",
