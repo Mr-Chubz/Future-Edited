@@ -183,7 +183,7 @@
 				"quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu"
 			},
 			{
-				"name": "Artificial Intelligence",
+				"name": "Lasers",
 				"row": 6,
 				"prerequisites": ["Advanced Ballistics", "Satellites", "Robotics"],
 				"quote": "'With artificial intelligence, we are summoning the demon. You know all those stories where there's the guy with the pentagram and the holy water, and he's like, yeah, he's sure he can control the demon? Doesn't work out.' - Elon Musk"
@@ -216,7 +216,7 @@
 				"quote": "'Nanotechnology will let us build computers that are incredibly powerful. We'll have more power in the volume of a sugar cube than exists in the entire world today.' - Ralph Merkle"
 			},
 			{
-				"name": "Lasers",
+				"name": "Artificial Intelligence",
 				"row": 6,
 				"prerequisites": ["Artificial Intelligence"],
 				"quote": "tThere is always room, if only in one’s own soul, to create a spot of Paradise, crazy though it may sound.' - Henry Miller"
