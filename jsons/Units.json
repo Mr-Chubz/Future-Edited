@@ -1,5 +1,6 @@
 [
 //Ancient
+/*
     {
 		"name": "Worker",
 		"unitType": "Civilian",
@@ -177,110 +178,14 @@
 		"obsoleteTech": "Computers",
 		"uniques": ["Intel","+1 Range to adjacent Siege Units","[+33]% Strength bonus for [Siege] units within [1] tiles","[+1] Sight","No defensive terrain bonus","All tiles cost 1 movement","Ignores Zone of Control","Never appears as a Barbarian unit"],
 	},
-	{
-		"name": "Artillery",
-		"unitType": "Siege Ranged",
-		"movement": 2,
-		"strength": 21,
-		"rangedStrength": 28,
-		"range": 2,
-		"cost": 320,
-		"requiredTech": "Dynamite",
-		"requiredResource": "Iron",
-		"upgradesTo": "Rocket Artillery",
-		"obsoleteTech": "Nanotechnology",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
-			"Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
-		"promotions": ["Indirect Fire"],
-		"attackSound": "artillery"
-	},
+	
 //Modern
-    {
-		"name": "Great War Infantry",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 50,
-		"cost": 320,
-	    "requiredTech": "Replaceable Parts",
-		"upgradesTo": "Infantry",
-		"obsoleteTech": "Plastics",
-		"uniques": ["Only available <if [GP-Great War] is constructed>","Never appears as a Barbarian unit"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Triplane",
-		"unitType": "Air Fighter",
-		"movement": 1,
-		"strength": 35,
-		"rangedStrength": 35,
-		"range": 5,
-		"interceptRange": 5,
-		"cost": 325,
-		"requiredResource": "Oil",
-		"upgradesTo": "Fighter",
-		"obsoleteTech": "Radar",
-		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>","Only available <if [EP-Early Vehicles] is constructed>","Only available <after discovering [Flight]>"],
-		"attackSound": "machinegun"
-	},
-	{
-		"name": "Great War Bomber",
-		"unitType": "Air Bomber",
-		"movement": 1,
-		"strength": 50,
-		"rangedStrength": 50,
-		"range": 6,
-		"cost": 325,
-		"requiredResource": "Oil",
-		"upgradesTo": "Bomber",
-		"obsoleteTech": "Radar",
-		"uniques": ["Only available <if [GP-Great War] is constructed>","Only available <after discovering [Flight]>"],
-		"attackSound": "bombing"
-	},
-    {
-		"name": "Biplane",
-		"unitType": "Air Fighter",
-		"movement": 1,
-		"strength": 25,
-		"rangedStrength": 25,
-		"range": 4,
-		"interceptRange": 4,
-		"cost": 325,
-		"requiredTech": "Flight",
-		"requiredResource": "Oil",
-		"upgradesTo": "Fighter",
-		"obsoleteTech": "Radar",
-		"uniques": ["[25]% chance to intercept air attacks","[+100]% Strength <vs [Observation Balloon] units>","[+50]% Strength <vs [Bomber] units>"],
-		"attackSound": "machinegun"
-	},
-	{
-		"name": "Landship",
-		"unitType": "Heavy Cavalry",
-		"movement": 4,
-		"strength": 60,
-		"cost": 350,
-		"requiredResource": "Oil",
-		"upgradesTo": "Tank",
-		"obsoleteTech": "Combined Arms",
-		"uniques": ["[+33]% Strength <vs [Land] units>","Ignores Zone of Control","Can move after attacking","No defensive terrain bonus","Never appears as a Barbarian unit","Only available <if [EP-Early Vehicles] is constructed>"],
-		"attackSound": "tankshot"
-	},
-	{
-		"name": "Battleship",
-		"unitType": "Naval Siege",
-		"movement": 5,
-		"strength": 55,
-		"rangedStrength": 55,
-		"range": 3,
-		"cost": 375,
-		"requiredResource": "Oil",
-		"requiredTech": "Electronics",
-		"upgradesTo": "Missile Cruiser",
-		"obsoleteTech": "Robotics",
-		"uniques": ["Never appears as a Barbarian unit"],
-		"promotions": ["Indirect Fire"],
-		"attackSound": "shipguns"
-		// Does **actually** upgrade to Missile Cruisers Now
-	},
+  
+	
+	
+ 
+	
+	
 	{
 		"name": "Musician",
 		"unitType": "Civilian",
@@ -311,18 +216,7 @@
 			{"text": "Construct Supply Routes on Strategic Resources your empire no longer uses."}
 		]
 	},
-	{
-		"name": "Destroyer",
-		"unitType": "Naval Melee",
-		"movement": 6,
-		"strength": 60,
-		"interceptRange": 2,
-		"cost": 375,
-		"requiredTech": "Combustion",
-		"requiredResource": "Iron",
-		"uniques": ["Can see invisible [Submarine] units","[50]% chance to intercept air attacks <after discovering [Ballistics]>","May withdraw before melee ([60]%)","[+50]% Strength <vs [Submarine] units>","[+50]% Strength <vs [Ranged] units>"],
-		"attackSound": "shipguns"
-	},
+	
 	{
 		"name": "Anti-Aircraft Gun",
 		"unitType": "Anti Air",
@@ -626,6 +520,7 @@
 		"promotions": ["Stealth"]
 		"attackSound": "bombing"
 	},
+/*
 //Future
     {
 		"name": "Bio-Infantry",
