@@ -92,17 +92,6 @@
 			{"text": "Construct Industries on Luxury Resources you have copies of and cannot trade."}
 		]
 	},
-	{
-		"name": "Supply Agent",
-		"unitType": "Civilian",
-		"cost": 500,	
-		"movement": 2,
-		"requiredTech": "Combustion",
-		"uniques": ["Can construct [Supply Route]","Uncapturable"],
-		"civilopediaText": [
-			{"text": "Construct Supply Routes on Strategic Resources your empire no longer uses."}
-		]
-	},
 
 //Atomic
   
