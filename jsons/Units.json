@@ -151,7 +151,7 @@
 		"uniques": ["Nuclear weapon of Strength [2]","Only available <if [Nuclear Testing Site] is constructed>","Blast radius [2]", "Consumes [2] [Uranium]"],
 		"attackSound": "nuke"
 	},
-	/*
+	*/
 	{
 		"name": "Drone",
 		"unitType": "Support",
