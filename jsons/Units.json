@@ -1,6 +1,6 @@
 [
 //Ancient
-/*
+
     {
 		"name": "Worker",
 		"unitType": "Civilian",
@@ -18,18 +18,7 @@
 		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>","May create improvements on water resources",
         "Can construct [Offshore Wind Farm] <after discovering [Terraforming]>","Uncapturable"]
 	},
-    {
-		"name": "Scout",
-		"unitType": "Recon",
-		"movement": 2,
-		"strength": 5,
-		"cost": 25,
-		"obsoleteTech": "Rifling",
-		"upgradesTo": "Recon"
-		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
-		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit"
-	},
+   
 //Renaissance
    
 //Industrial
@@ -66,105 +55,8 @@
 		"promotions": ["Support Unit"],
 		"uniques": ["All adjacent units heal [+10] HP when healing <before adopting [Collectivization]>","All adjacent units heal [+20] HP when healing <after adopting [Collectivization]>","Uncapturable","Never appears as a Barbarian unit"],
 	},
-	{
-		"name": "Rifleman",
-		"unitType": "Infantry",
-		"movement": 2,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Plastics",
-		"upgradesTo": "Infantry",
-		"attackSound": "shot",
-	},
-	{
-		"name": "Mehal Sefari",
-		"unitType": "Infantry",
-		"replaces": "Rifleman",
-		"uniqueTo": "Ethiopia",
-		"movement": 2,
-		"strength": 34,
-		"cost": 200,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Infantry",
-		"promotions": ["Drill I","Home Sweet Home"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Carolean",
-		"unitType": "Infantry",
-		"replaces": "Rifleman",
-		"uniqueTo": "Sweden",
-		"movement": 2,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Infantry",
-		"promotions": ["March"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Norwegian Ski Infantry",
-		"unitType": "Infantry",
-		"replaces": "Rifleman",
-		"uniqueTo": "Denmark",
-		"movement": 2,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Infantry",
-		"promotions": ["[Norwegian Ski Infantry] ability"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Cavalry",
-		"unitType": "Light Cavalry",
-		"movement": 4,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Military Science",
-		"obsoleteTech": "Combustion",
-		"requiredResource": "Horses",
-		"upgradesTo": "Tank",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Cossack",
-		"unitType": "Light Cavalry",
-		"replaces": "Cavalry",
-		"uniqueTo": "Russia",
-		"movement": 4,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Military Science",
-		"obsoleteTech": "Combustion",
-		"requiredResource": "Horses",
-		"upgradesTo": "Tank",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["[Cossack] ability"],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Hussar",
-		"unitType": "Light Cavalry",
-		"replaces": "Cavalry",
-		"uniqueTo": "Austria",
-		"movement": 5,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Military Science",
-		"obsoleteTech": "Combustion",
-		"requiredResource": "Horses",
-		"upgradesTo": "Tank",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
-			"[+1] Sight"],
-		"promotions": ["[Hussar] ability"],
-		"attackSound": "horse"
-	},
+	
+	
 	{
 		"name": "Observation Balloon",
 		"unitType": "Support",
@@ -216,72 +108,10 @@
 			{"text": "Construct Supply Routes on Strategic Resources your empire no longer uses."}
 		]
 	},
-	
-	{
-		"name": "Anti-Aircraft Gun",
-		"unitType": "Anti Air",
-		"movement": 2,
-		"interceptRange": 2,
-		"strength": 50,
-		"cost": 375,
-		"requiredTech": "Ballistics",
-		"upgradesTo": "Mobile SAM",
-		"obsoleteTech": "Rocketry",
-		"promotions": ["Support Unit"],
-		"uniques": ["Anti-Air","+33% Strength to adjacent Land Units vs Air units","[100]% chance to intercept air attacks","[+100]% Strength <vs [Air] units>","Never appears as a Barbarian unit"],
-	},
-	{
-		"name": "Tank",
-		"unitType": "Heavy Cavalry",
-		"movement": 4,
-		"strength": 70,
-		"cost": 375,
-		"requiredTech": "Combustion",
-		"requiredResource": "Iron",
-		"upgradesTo": "Modern Armor",
-		"uniques": ["[+33]% Strength <vs [Land] units>","Ignores Zone of Control","Can move after attacking","No defensive terrain bonus","Consumes [1] [Oil]","Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
-	},
+
 //Atomic
-    {
-		"name": "Marine",
-		"unitType": "Marines",
-		"movement": 2,
-		"strength": 65,
-		"cost": 375,
-		"requiredTech": "Pharmaceuticals",
-		"obsoleteTech": "Lasers",
-		"upgradesTo": "Future Soldier",
-		"uniques": ["[1] Movement point cost to disembark","[1] Movement point cost to embark","Normal vision when embarked","Defense bonus when embarked"],
-		"promotions": ["Amphibious"],
-		"attackSound": "shot"
-	},
-    {
-		"name": "Bomber",
-		"unitType": "Air Bomber",
-		"movement": 1,
-		"strength": 65,
-		"rangedStrength": 65,
-		"range": 10,
-		"cost": 375,
-		"requiredTech": "Radar",
-		"requiredResource": "Oil",
-		"upgradesTo": "Jet Bomber",
-		"attackSound": "bombing"
-	},
-    {
-		"name": "Paratrooper",
-		"unitType": "Paratrooper",
-		"movement": 2,
-		"strength": 65,
-		"cost": 375,
-		"requiredTech": "Radar",
-		"obsoleteTech": "Lasers",
-		"upgradesTo": "Future Soldier",
-		"promotions": ["Skirmish"],
-		"uniques": ["May Paradrop up to [9] tiles from inside friendly territory","Never appears as a Barbarian unit"],
-		"attackSound": "shot"
-	},
+  
+ 
 	{
 		"name": "Architect",
 		"unitType": "Civilian",
@@ -290,94 +120,11 @@
 		"requiredTech": "Infraestructure",
 		"cost": 540
 	},
-	{
-		"name": "Carrier",
-		"unitType": "Naval Carrier",
-		"movement": 5,
-		"strength": 60,
-		"cost": 375,
-		"requiredTech": "Electronics",
-		"obsoleteTech": "Clean Energy",
-		"uniques": ["Cyber","[+33]% Strength <vs [Ranged] units>","Can carry [2] [Aircraft] units","Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Anti-Tank Gun",
-		"unitType": "Anti Cavalry",
-		"movement": 2,
-		"strength": 50,
-		"cost": 300,
-		"requiredTech": "Combined Arms",
-		"upgradesTo": "Helicopter Gunship",
-		"uniques": ["[+200]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
-		"attackSound": "machinegun"
-	},
-    {
-		"name": "Atomic Bomb",
-		"unitType": "Air Atomic Bomber",
-		"movement": 1,
-		"strength": 150,
-		"rangedStrength": 150,
-		"range": 10,
-		"cost": 900,
-		"obsoleteTech": "Advanced Ballistics"
-		"requiredTech": "Nuclear Fission",
-		"upgradesTo": "Nuclear Missile",
-		"promotions" : ["Evasion"],
-		"uniques": ["Consumes [1] [Uranium]","Nuclear weapon of Strength [1]","Only available <if [Nuclear Testing Site] is constructed>", "Self-destructs when attacking","Blast radius [2]"],
-		"attackSound": "nuke"
-	},
-	{
-		"name": "Rocket Artillery",
-		"unitType": "Siege Ranged",
-		"movement": 2,
-		"strength": 42,
-		"rangedStrength": 56,
-		"range": 2,
-		"cost": 425,
-		"requiredTech": "Rocketry",
-		"requiredResource": "Iron",
-		"uniques": ["Cyber","Consumes [1] [Aluminum]","[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","[-1] Sight","[+1] Range <after discovering [Advanced Ballistics]>","Never appears as a Barbarian unit"],
-		"promotions": ["Indirect Fire"],
-		"attackSound": "artillery"
-	},
-	{
-		"name": "Mobile SAM",
-		"unitType": "Anti Air",
-		"movement": 3,
-		"interceptRange": 2,
-		"strength": 65,
-		"cost": 425,
-		"requiredTech": "Rocketry",
-		"obsoleteTech": "Nanotechnology",
-		"promotions": ["Support Unit"],
-		"uniques": ["Cyber","Anti-Air","+33% Strength to adjacent Land Units vs Air units","[100]% chance to intercept air attacks","[+150]% Strength <vs [Air] units>","Never appears as a Barbarian unit"],
-	},
-	{
-		"name": "Guided Missile",
-		"unitType": "Air Missile",
-		"movement": 1,
-		"strength": 60,
-		"rangedStrength": 60,
-		"range": 7,
-		"cost": 150,
-		"requiredTech": "Advanced Ballistics",
-		"uniques": ["[-100]% maintenance costs","[+33]% Strength <after discovering [Lasers]>","[+3] Range <after discovering [Satellites]>"],
-		"attackSound": "missile"
-	},
-	{
-		"name": "Helicopter Gunship",
-		"unitType": "Air Helicopter",
-		"movement": 5,
-		"range": 2,
-		"strength": 70,
-		"rangedStrength": 70,
-		"cost": 425,
-		"requiredTech": "Computers",
-		"uniques": ["Cyber","Consumes [2] [Aluminum]","[+100]% Strength <vs [Armored] units>","No defensive terrain bonus", "Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","Unable to capture cities","Never appears as a Barbarian unit"],
-		"attackSound": "machinegun"
-		"civilopediaText": [{"text": "In Future Expansion, Helicopters are powerful Anti-Tank units capable of performing Ranged attacks and then retreating."}]
-	},
+
+
+	
 //Information
+	/*
     {
 		"name": "Nuclear Submarine",
 		"unitType": "Naval Submarine",
@@ -404,6 +151,7 @@
 		"uniques": ["Nuclear weapon of Strength [2]","Only available <if [Nuclear Testing Site] is constructed>","Blast radius [2]", "Consumes [2] [Uranium]"],
 		"attackSound": "nuke"
 	},
+	/*
 	{
 		"name": "Drone",
 		"unitType": "Support",
@@ -414,21 +162,7 @@
 		"requiredTech": "Computers",
 		"uniques": ["Intel","+1 Range to adjacent Siege Units","[+33]% Strength bonus for [Siege] units within [1] tiles","[+1] Sight","No defensive terrain bonus","All tiles cost 1 movement","Ignores Zone of Control","Never appears as a Barbarian unit"],
 	},
-	{
-		"name": "Missile Cruiser",
-		"unitType": "Naval Ranged",
-		"movement": 7,
-		"strength": 80,
-		"rangedStrength": 100,
-		"range": 3,
-		"interceptRange": 2,
-		"cost": 425,
-		"requiredTech": "Robotics",
-		"uniques": ["Cyber","Consumes [1] [Aluminum]","[100]% chance to intercept air attacks","Can see invisible [Submarine] units",
-			"Can carry [3] [Missile] units","[+100]% Strength <vs [Submarine] units>","Never appears as a Barbarian unit"],
-		"promotions": ["Indirect Fire"],
-		"attackSound": "shipguns"
-	},
+	
 	{
 		"name": "Hacker",
 		"unitType": "Support",
@@ -439,41 +173,7 @@
 		"promotions": ["Support Unit"],
 		"uniques": ["Cyber","Hacker","+33% Strength for adjacent non-air Units vs Cyber units","25% Chance for Adjacent units to capture Killed Cyber unit","Never appears as a Barbarian unit"]
 	},
-	{
-		"name": "Mechanized Infantry",
-		"unitType": "Light Cavalry",
-		"movement": 4,
-		"strength": 90,
-		"cost": 475,
-		"requiredTech": "Mobile Tactics",
-		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
-	},
-	{
-		"name": "Modern Armor",
-		"unitType": "Heavy Cavalry",
-		"movement": 5,
-		"strength": 100,
-		"cost": 425,
-		"requiredTech": "Mobile Tactics"
-		"requiredResource": "Aluminum",
-		"uniques": ["Cyber","[+33]% Strength <vs [Land] units>","Ignores Zone of Control","Can move after attacking","No defensive terrain bonus","Consumes [1] [Oil]","Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
-	},
-	{
-		"name": "Advanced Fighter",
-		"unitType": "Air Fighter",
-		"movement": 1,
-		"strength": 75,
-		"rangedStrength": 75,
-		"range": 10,
-		"interceptRange": 10,
-		"cost": 425,
-		"requiredTech": "Mobile Tactics",
-		"requiredResource": "Aluminum",
-		"uniques": ["Cyber","Consumes [1] [Oil]","[100]% chance to intercept air attacks","[+150]% Strength <vs [Bomber] units>","[+50]% Strength <vs [Helicopter] units>"],
-		"attackSound": "jetgun"
-	},
+	
 	{
 		"name": "Tactical Supplier",
 		"unitType": "Support",
@@ -491,35 +191,10 @@
 		"strength": 90,
 		"cost": 560,
 		"requiredResource": "Aluminum",
-		"uniques": ["Cyber","Hacker","+33% Strength for adjacent non-air Units vs Cyber units","25% Chance for Adjacent units to capture Killed Cyber unit","May withdraw before melee ([50]%)","Can see invisible [Military] units","Only available <if [GP-Stealth Operatives] is constructed>","Never appears as a Barbarian unit"]
+		"uniques": ["Cyber","Hacker","+33% Strength for adjacent non-air Units vs Cyber units","25% Chance for Adjacent units to capture Killed Cyber unit","May withdraw before melee ([50]%)","Can see invisible [Military] units","Never appears as a Barbarian unit"]
 		"promotions": ["Stealth","Support Unit"]
 	},
-	{
-		"name": "Advanced Bomber",
-		"unitType": "Air Bomber",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 90,
-		"range": 20,
-		"cost": 425,
-		"requiredTech": "Automation",
-		"requiredResource": "Aluminum",
-		"uniques": ["Cyber","Consumes [1] [Oil]"],
-		"attackSound": "bombing"
-	},
-	{
-		"name": "Strategic Bomber",
-		"unitType": "Air Bomber",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 90,
-		"range": 20,
-		"cost": 560,
-		"requiredResource": "Oil",
-		"uniques": ["Cyber","Damage taken from interception reduced by [50]%","Cannot be carried by [Carrier] units","[+4] Sight","Consumes [2] [Aluminum]","Only available <if [GP-Stealth Operatives] is constructed>","Can see over obstacles"],
-		"promotions": ["Stealth"]
-		"attackSound": "bombing"
-	},
+	
 /*
 //Future
     {
@@ -541,7 +216,7 @@
 		"cost": 530,
 		"requiredResource": "Composites",
 		"uniques": ["Cyber","Can move after attacking","No defensive terrain bonus","Never appears as a Barbarian unit"],
-		"uniques": ["[+33]% Strength <vs [Land] units>","Ignores Zone of Control","Can move after attacking","No defensive terrain bonus","Only available <if [GP-Hovercombat] is constructed>","Never appears as a Barbarian unit"],
+		"uniques": ["[+33]% Strength <vs [Land] units>","Ignores Zone of Control","Can move after attacking","No defensive terrain bonus","Never appears as a Barbarian unit"],
 		"promotions": ["Amphibious","Hovering"],
 		"attackSound": "tankshot"
 	},
@@ -566,7 +241,7 @@
 		"range": 3,
 		"cost": 540,
 		"requiredResource": "Composites",
-		"uniques": ["Cyber","[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","[-1] Sight","Only available <if [GP-Hovercombat] is constructed>","Never appears as a Barbarian unit"],
+		"uniques": ["Cyber","[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","[-1] Sight","Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire","Amphibious","Hovering"],
 		"attackSound": "artillery"
 	},
@@ -578,7 +253,7 @@
 		"strength": 65,
 		"cost": 540,
 		"requiredResource": "Composites",
-		"uniques": ["Cyber","Anti-Air","+33% Strength to adjacent Land Units vs Air units","[100]% chance to intercept air attacks","[+150]% Strength <vs [Air] units>","Only available <if [GP-Hovercombat] is constructed>","Never appears as a Barbarian unit"],
+		"uniques": ["Cyber","Anti-Air","+33% Strength to adjacent Land Units vs Air units","[100]% chance to intercept air attacks","[+150]% Strength <vs [Air] units>","Never appears as a Barbarian unit"],
 		"promotions": ["Support Unit","Heat Sensor","Amphibious","Hovering"],
 		"attackSound": "missile"
 	},
@@ -600,7 +275,7 @@
 		"movement": 3,
 		"strength": 80,
 		"cost": 375,
-		"uniques": ["Bio","Only available <if [EP-Genetic Engineering] is constructed>","Can see invisible [Wounded] units","Can move after attacking","Heals [25] damage if it kills a unit","Never appears as a Barbarian unit"],
+		"uniques": ["Bio","Can see invisible [Wounded] units","Can move after attacking","Heals [25] damage if it kills a unit","Never appears as a Barbarian unit"],
 		"promotions": ["Amphibious"]
 		"attackSound": "bite"
 	},
@@ -624,7 +299,7 @@
 		"strength": 100,
 		"cost": 600,
 		"requiredResource": "Composites",
-		"uniques": ["Only available <if [GP-Energy Weapons] is constructed>","Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit"],
 		"promotions": ["Energy Weapons","Amphibious"]
 		"attackSound": "energyshot"
 	},
@@ -637,7 +312,7 @@
 		"rangedStrength": 70,
 		"cost": 580,
 		"requiredResource": "Composites",
-		"uniques": ["Cyber","Only available <if [GP-Energy Weapons] is constructed>","[+100]% Strength <vs [Armored] units>","[+75]% Strength <vs [Fighter] units>","No defensive terrain bonus", "Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","Unable to capture cities","Never appears as a Barbarian unit"],
+		"uniques": ["Cyber","[+100]% Strength <vs [Armored] units>","[+75]% Strength <vs [Fighter] units>","No defensive terrain bonus", "Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","Unable to capture cities","Never appears as a Barbarian unit"],
 		"promotions": ["Energy Weapons","Hovering","Amphibious"]
 		"attackSound": "energyshot"
 	},
@@ -651,7 +326,7 @@
 		"rangedStrength": 125,
 		"cost": 750,
 		"requiredResource": "Composites",
-		"uniques": ["Cyber","Space","Only available <if [GP-Energy Weapons] is constructed>","No defensive terrain bonus","Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","Can carry [2] [Aircraft] units","[100]% chance to intercept air attacks","[+25]% Strength <vs [Air] units>","Never appears as a Barbarian unit"],
+		"uniques": ["Cyber","Space","No defensive terrain bonus","Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","Can carry [2] [Aircraft] units","[100]% chance to intercept air attacks","[+25]% Strength <vs [Air] units>","Never appears as a Barbarian unit"],
 		"promotions": ["In Orbit","Amphibious"]
 		"attackSound": "energyshot"
 	},
@@ -665,7 +340,7 @@
 		"interceptRange": 20,
 		"cost": 700,
 		"requiredResource": "Composites",
-		"uniques": ["Only available <if [AP-Space Combat] is constructed>"
+		"uniques":[
 		"Cyber",
 		"Space",
 		"Only available <if [AP-Space Combat] is constructed>",
@@ -684,7 +359,7 @@
 		"range": 28,
 		"cost": 700,
 		"requiredResource": "Composites",
-		"uniques": ["Only available <if [AP-Space Combat] is constructed>"
+		"uniques": [
 		"Cyber",
 		"Space",
 		"[+4] Sight", "Can see over obstacles"],
@@ -712,7 +387,7 @@
 		"rangedStrength": 100,
 		"cost": 530,
 		"requiredResource": "Composites",
-		"uniques": ["Cyber","Only available <if [EP-Cyber Engineering] is constructed>","[+75]% Strength <when attacking>","Can move after attacking","[+1] Sight","Can carry [2] [Air Missile] units","Ignores Zone of Control","Never appears as a Barbarian unit"],
+		"uniques": ["Cyber","[+75]% Strength <when attacking>","Can move after attacking","[+1] Sight","Can carry [2] [Air Missile] units","Ignores Zone of Control","Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
 	{
