@@ -309,7 +309,6 @@
 		"hurryCostModifier": 0,
 		"cost": 1000,
 		"uniques": ["Consumes [3] [Power]","Provides [4] [Composites]","[+50]% Production when constructing [Cyber] units [in this city]","Destroyed when the city is captured",
-		"Only available <if [EP-Cyber Engineering] is constructed>",
 		"Only available <in cities without a [Nano-Factory]>",
 		"Only available <in cities without a [Bio Facility]>"
 		"Only available <in cities without a [Spaceship Factory]>"]
