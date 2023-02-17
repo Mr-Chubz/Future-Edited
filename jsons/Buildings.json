@@ -39,6 +39,7 @@
 		"name": "History Museum",
 		"maintenance": 2,
 		"cost": 300,
+		"requiredTech": "Archaeology",
 		"uniques": ["Consumes [3] [Fossil]","Consumes [1] [Power]","[+20 Gold] from [Excavation Site] tiles [in this city]","[+50]% Yield from every [Excavation Site]"]
 	},
 	{
@@ -261,6 +262,7 @@
 		"name": "Bio Facility",
 		"percentStatBonus": {"food": 10},
 		"cost": 1000,
+	    "requiredTech": "Enhancing",
 		"hurryCostModifier": 15,
 		"uniques": ["Consumes [3] [Power]",
 		"Provides [1] [Composites]",
@@ -308,6 +310,7 @@
 		"maintenance": 6,
 		"hurryCostModifier": 0,
 		"cost": 1000,
+		"requiredTech": "Nanotechnology",
 		"uniques": ["Consumes [3] [Power]","Provides [4] [Composites]","[+50]% Production when constructing [Cyber] units [in this city]","Destroyed when the city is captured",
 		"Only available <in cities without a [Nano-Factory]>",
 		"Only available <in cities without a [Bio Facility]>"
@@ -320,6 +323,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 6,
 		"cost": 1120,
+		"requiredTech": "Metagenetics",
 		"uniques": ["Consumes [3] [Power]","[+50]% Production when constructing [Bio] units [in this city]","[+15]% growth [in this city]","Destroyed when the city is captured","Only available <in cities without a [Energy Barrier]>"]
 	},
 	{
@@ -329,6 +333,7 @@
 		"cityHealth": 75,
 		"maintenance": 6,
 		"cost": 1120,
+		"requiredTech": "Clean Energy",
 		"uniques": ["Consumes [3] [Power]","Population loss from nuclear attacks [-25]% [in this city]","All newly-trained [Military] units [in this city] receive the [Energy Shield] promotion","Only available <in cities without a [Adaptive Base]>","Destroyed when the city is captured"],
 	},
 	{
