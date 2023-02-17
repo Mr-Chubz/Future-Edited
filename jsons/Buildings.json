@@ -1280,7 +1280,7 @@
 		"Consumes [1] [General Perk]",
 		"[-2 Culture] [in this city] <after adopting [Constitution]>"]
 	},
-\*
+*/
     //Effect-Based
     {
 		"name": "Cloning Facility",
@@ -1312,5 +1312,4 @@
 		"name": "Solar Plant",
 		"uniques": ["Future Expansion has no Solar Plant","Unbuildable","Will not be displayed in Civilopedia"]
 	},
-	/*
 ]
