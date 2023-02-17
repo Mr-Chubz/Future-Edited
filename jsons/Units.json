@@ -209,6 +209,7 @@
 		"movement": 5,
 		"strength": 100,
 		"cost": 530,
+	    "requiredTech": "Nanotechnology",
 		"requiredResource": "Composites",
 		"uniques": ["Cyber","Can move after attacking","No defensive terrain bonus","Never appears as a Barbarian unit"],
 		"uniques": ["[+33]% Strength <vs [Land] units>","Ignores Zone of Control","Can move after attacking","No defensive terrain bonus","Never appears as a Barbarian unit"],
@@ -235,6 +236,7 @@
 		"rangedStrength": 56,
 		"range": 3,
 		"cost": 540,
+		"requiredTech": "Nanotechnology",
 		"requiredResource": "Composites",
 		"uniques": ["Cyber","[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","[-1] Sight","Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire","Amphibious","Hovering"],
@@ -247,6 +249,7 @@
 		"interceptRange": 4,
 		"strength": 65,
 		"cost": 540,
+		"requiredTech": "Nanotechnology",
 		"requiredResource": "Composites",
 		"uniques": ["Cyber","Anti-Air","+33% Strength to adjacent Land Units vs Air units","[100]% chance to intercept air attacks","[+150]% Strength <vs [Air] units>","Never appears as a Barbarian unit"],
 		"promotions": ["Support Unit","Heat Sensor","Amphibious","Hovering"],
@@ -270,6 +273,7 @@
 		"movement": 3,
 		"strength": 80,
 		"cost": 375,
+		"requiredTech": "Enhancing",
 		"uniques": ["Bio","Can see invisible [Wounded] units","Can move after attacking","Heals [25] damage if it kills a unit","Never appears as a Barbarian unit"],
 		"promotions": ["Amphibious"]
 		"attackSound": "bite"
@@ -293,6 +297,7 @@
 		"movement": 2,
 		"strength": 100,
 		"cost": 600,
+		"requiredTech": "Clean Energy",
 		"requiredResource": "Composites",
 		"uniques": ["Never appears as a Barbarian unit"],
 		"promotions": ["Energy Weapons","Amphibious"]
@@ -306,6 +311,7 @@
 		"strength": 70,
 		"rangedStrength": 70,
 		"cost": 580,
+		"requiredTech": "Clean Energy",
 		"requiredResource": "Composites",
 		"uniques": ["Cyber","[+100]% Strength <vs [Armored] units>","[+75]% Strength <vs [Fighter] units>","No defensive terrain bonus", "Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","Unable to capture cities","Never appears as a Barbarian unit"],
 		"promotions": ["Energy Weapons","Hovering","Amphibious"]
@@ -320,6 +326,7 @@
 		"strength": 125,
 		"rangedStrength": 125,
 		"cost": 750,
+		"requiredTech": "Clean Energy",
 		"requiredResource": "Composites",
 		"uniques": ["Cyber","Space","No defensive terrain bonus","Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","Can carry [2] [Aircraft] units","[100]% chance to intercept air attacks","[+25]% Strength <vs [Air] units>","Never appears as a Barbarian unit"],
 		"promotions": ["In Orbit","Amphibious"]
@@ -334,6 +341,7 @@
 		"range": 20,
 		"interceptRange": 20,
 		"cost": 700,
+		"requiredTech":"Spaceflight",
 		"requiredResource": "Composites",
 		"uniques":[
 		"Cyber",
@@ -352,6 +360,7 @@
 		"rangedStrength": 90,
 		"range": 28,
 		"cost": 700,
+		"requiredTech":"Spaceflight",
 		"requiredResource": "Composites",
 		"uniques": [
 		"Cyber",
@@ -380,6 +389,7 @@
 		"range": 3,
 		"rangedStrength": 100,
 		"cost": 530,
+		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Composites",
 		"uniques": ["Cyber","[+75]% Strength <when attacking>","Can move after attacking","[+1] Sight","Can carry [2] [Air Missile] units","Ignores Zone of Control","Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
