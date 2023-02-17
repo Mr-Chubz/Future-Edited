@@ -39,7 +39,7 @@
 		"name": "History Museum",
 		"maintenance": 2,
 		"cost": 300,
-		"uniques": ["Only available <if [AP-Museum Host] is constructed>","Consumes [3] [Fossil]","Consumes [1] [Power]","[+20 Gold] from [Excavation Site] tiles [in this city]","[+50]% Yield from every [Excavation Site]"]
+		"uniques": ["Consumes [3] [Fossil]","Consumes [1] [Power]","[+20 Gold] from [Excavation Site] tiles [in this city]","[+50]% Yield from every [Excavation Site]"]
 	},
 	{
 		"name": "Public School",
@@ -139,7 +139,7 @@
 	{
 		"name": "International Pass",
 		"cost": 350,
-		"uniques": ["Only available <if [AP-World Tour] is constructed>","[+8 Culture, +4 Gold] from [Concert Venue] tiles [in this city]","Must have an owned [Concert Venue] within [3] tiles"]
+		"uniques": ["[+8 Culture, +4 Gold] from [Concert Venue] tiles [in this city]","Must have an owned [Concert Venue] within [3] tiles"]
 	},
 	{
 		"name": "Nuclear Plant",
@@ -185,7 +185,7 @@
     {
 		"name": "Branch Office",
 		"cost": 350,
-		"uniques": ["Only available <if [MP-Branch Companies] is constructed>","Consumes [1] [Power]","[+10 Gold, +5 Production] from [Industry] tiles [in this city]","Must have an owned [Industry] within [3] tiles"]
+		"uniques": ["Consumes [1] [Power]","[+10 Gold, +5 Production] from [Industry] tiles [in this city]","Must have an owned [Industry] within [3] tiles"]
 	},
 	{
 		"name": "Entrepeneur Venue",
@@ -263,7 +263,6 @@
 		"cost": 1000,
 		"hurryCostModifier": 15,
 		"uniques": ["Consumes [3] [Power]",
-		"Only available <if [EP-Genetic Engineering] is constructed>",
 		"Provides [1] [Composites]",
 		"[15]% Food is carried over after population increases [in this city]",
 		"Destroyed when the city is captured"
@@ -290,7 +289,7 @@
 		"name": "Energy Reactor",
 		"cost": 1000,
 		"maintenance": 5,
-		"uniques": ["Only available <if [SP-Future Power] is constructed>","Provides [10] [Power]","Provides [3] [Power] <after discovering [Clean Energy]>","Provides [10] [Power] <if [Electrical Corporation] is constructed>","Only available <in cities without a [Coal Plant]>","Only available <in cities without a [Nuclear Plant]>"]
+		"uniques": ["Provides [10] [Power]","Provides [3] [Power] <after discovering [Clean Energy]>","Provides [10] [Power] <if [Electrical Corporation] is constructed>","Only available <in cities without a [Coal Plant]>","Only available <in cities without a [Nuclear Plant]>"]
 	},
 	{
 		"name": "Space Station",
@@ -322,7 +321,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 6,
 		"cost": 1120,
-		"uniques": ["Only available <if [MP-Desalination] is constructed>","Consumes [3] [Power]","[+50]% Production when constructing [Bio] units [in this city]","[+15]% growth [in this city]","Destroyed when the city is captured","Only available <in cities without a [Energy Barrier]>"]
+		"uniques": ["Consumes [3] [Power]","[+50]% Production when constructing [Bio] units [in this city]","[+15]% growth [in this city]","Destroyed when the city is captured","Only available <in cities without a [Energy Barrier]>"]
 	},
 	{
 		"name": "Energy Barrier",
@@ -331,7 +330,7 @@
 		"cityHealth": 75,
 		"maintenance": 6,
 		"cost": 1120,
-		"uniques": ["Consumes [3] [Power]","Only available <if [SP-Future Power] is constructed>","Population loss from nuclear attacks [-25]% [in this city]","All newly-trained [Military] units [in this city] receive the [Energy Shield] promotion","Only available <in cities without a [Adaptive Base]>","Destroyed when the city is captured"],
+		"uniques": ["Consumes [3] [Power]","Population loss from nuclear attacks [-25]% [in this city]","All newly-trained [Military] units [in this city] receive the [Energy Shield] promotion","Only available <in cities without a [Adaptive Base]>","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Space Colony",
@@ -551,6 +550,7 @@
 		"requiredResource": "Corporation Slot",
 		"uniques": ["Provides [2] [Holy Stock]","[Faith] cost of purchasing [All] units [-35]%","Consumes [1] [Corporation Slot(Total)]","Only available <after discovering [Corporations]>","Only available <with [Corporation Slot]>","Only available <starting from the [Information era]>"]
 	},
+/*
     //Perks
 	{
 		"name": "SP-Innovation",
@@ -1280,6 +1280,7 @@
 		"Consumes [1] [General Perk]",
 		"[-2 Culture] [in this city] <after adopting [Constitution]>"]
 	},
+\*
     //Effect-Based
     {
 		"name": "Cloning Facility",
