@@ -130,7 +130,7 @@
 		"cost": 425,
 		"requiredTech": "Telecommunications",
 		"upgradesTo": "Future Submarine",
-		"uniques": ["Cyber","Consumes [1] [Uranium]","[+75]% Strength <when attacking>","Can only attack [Water] tiles","Can move after attacking","[+1] Sight","Can carry [2] [Missile] units","Ignores Zone of Control","Never appears as a Barbarian unit"],
+		"uniques": ["Cyber","Consumes [1] [Uranium]","[+75]% Strength <when attacking>","Can only attack [Water] tiles","Can move after attacking","[+1] Sight","Can carry [2] [Air Missile] units","Ignores Zone of Control","Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
 	{
@@ -338,7 +338,6 @@
 		"uniques":[
 		"Cyber",
 		"Space",
-		"Only available <if [AP-Space Combat] is constructed>",
 		"[100]% chance to intercept air attacks",
 		"[+150]% Strength <vs [Bomber] units>", 
 		"[+50]% Strength <vs [Helicopter] units>"],
