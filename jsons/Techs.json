@@ -35,6 +35,7 @@
 				"name": "Combustion",
 				"row": 8,
 				"prerequisites": ["Railroads"],
+				"uniques": ["[+2] Movement <for [Embarked] units>"],
 				"quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
 			}
 		]
