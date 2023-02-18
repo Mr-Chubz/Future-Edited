@@ -290,6 +290,7 @@
 	{
 		"name": "Energy Reactor",
 		"cost": 1000,
+		"requiredTech": "Nuclear Fusion",
 		"maintenance": 5,
 		"uniques": ["Provides [10] [Power]","Provides [3] [Power] <after discovering [Clean Energy]>","Provides [10] [Power] <if [Electrical Corporation] is constructed>","Only available <in cities without a [Coal Plant]>","Only available <in cities without a [Nuclear Plant]>"]
 	},
