@@ -361,12 +361,12 @@
 	{
 		"name": "Ultraheavy Death Robot",
 		"unitType": "Heavy Cavalry",
-		"movement": 5,
-		"strength": 150,
+		"movement": 4,
+		"strength": 160,
 		"cost": 750,
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Composites",
-		"uniques": ["Consumes [2] [Uranium]","Cyber","Can move after attacking","Can carry [1] [Air Missile] units","Never appears as a Barbarian unit"],
+		"uniques": ["Consumes [2] [Uranium]","Cyber","Can move after attacking","Can carry [2] [Air Missile] units","Never appears as a Barbarian unit"],
 		"promotions": ["Scan Visor","Amphibious","Gravity Generator"]
 		"attackSound": "gdrAttack"
 	},
