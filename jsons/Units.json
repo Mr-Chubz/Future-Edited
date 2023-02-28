@@ -303,7 +303,7 @@
 		"cost": 580,
 		"requiredTech": "Clean Energy",
 		"requiredResource": "Composites",
-		"uniques": ["Cyber","[+100]% Strength <vs [Armored] units>","[+75]% Strength <vs [Fighter] units>","No defensive terrain bonus", "Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","Unable to capture cities","Never appears as a Barbarian unit"],
+		"uniques": ["Cyber","[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>","[+25]% Strength <vs [Air Fighter] units>","No defensive terrain bonus", "Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","Unable to capture cities","Never appears as a Barbarian unit"],
 		"promotions": ["Energy Weapons","Hovering","Amphibious"]
 		"attackSound": "energyshot"
 	},
@@ -337,8 +337,8 @@
 		"Cyber",
 		"Space",
 		"[100]% chance to intercept air attacks",
-		"[+150]% Strength <vs [Bomber] units>", 
-		"[+50]% Strength <vs [Helicopter] units>"],
+		"[+150]% Strength <vs [Air Bomber] units>", 
+		"[+50]% Strength <vs [Air Helicopter] units>"],
 		"promotions": ["Heat Sensor","In Orbit"]
 		"attackSound": "jetgun"
 	},
